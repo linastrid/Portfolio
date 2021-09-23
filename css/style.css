@@ -1,0 +1,35 @@
+body {
+    font-size: 16px;
+    font-family: "Source Serif Pro", serif;
+    color: #353738;
+}
+
+#profile-info-avatar {
+    width: 310px;
+    height: 310px;
+}
+
+.container {
+    display: grid;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* width: 100%; */
+}
+
+@media (min-width: 1366px) {
+    .container {
+        grid-template-columns: minmax(10px, 310px) minmax(10px, 1fr);
+        padding: 40px;
+        grid-gap: 40px;
+        /* max-width: 80%; */
+        margin: 0 auto;
+    }
+    .profile-info {
+        grid-column: 1;
+    }
+    .all-projects {
+        grid-column: 2;
+        width: 936px;
+        height: 460px;
+    }
+}
