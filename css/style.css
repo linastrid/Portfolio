@@ -4,32 +4,130 @@ body {
     color: #353738;
 }
 
-#profile-info-avatar {
-    width: 310px;
-    height: 310px;
+h1 {
+    color: #485D60;
 }
 
-.container {
-    display: grid;
-    padding-top: 0;
-    padding-bottom: 0;
-    /* width: 100%; */
+p {
+    color: #000000;
 }
 
 @media (min-width: 1366px) {
     .container {
-        grid-template-columns: minmax(10px, 310px) minmax(10px, 1fr);
-        padding: 40px;
-        grid-gap: 40px;
-        /* max-width: 80%; */
-        margin: 0 auto;
+        margin: 40px 40px 0 40px;
+        display: grid;
+        max-width: 100%;
     }
     .profile-info {
         grid-column: 1;
+        width: 310px;
+        height: 728px;
+        position: fixed;
+    }
+    #profile-info-avatar {
+        width: 310px;
+        height: 310px;
+    }
+    .description {
+        width: 310px;
+        height: 728px;
+        margin-top: 20px;
+    }
+    .HOME {
+        width: 70px;
+        height: 20px;
+        color: #49787E;
+    }
+    .ABOUT {
+        width: 70px;
+        height: 20px;
+        color: #49787E;
     }
     .all-projects {
         grid-column: 2;
-        width: 936px;
-        height: 460px;
+        margin-left: 371px;
+    }
+    .img-fluid {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1366px) {
+    .container {
+        margin: 24px 24px 0 40px;
+        display: grid;
+        max-width: 100%;
+    }
+    .profile-info {
+        grid-column: 1;
+        width: 310px;
+        height: 728px;
+        position: fixed;
+    }
+    #profile-info-avatar {
+        width: 310px;
+        height: 310px;
+    }
+    .description {
+        width: 310px;
+        height: 728px;
+        margin-top: 20px;
+    }
+    .HOME {
+        width: 70px;
+        height: 20px;
+        color: #49787E;
+    }
+    .ABOUT {
+        width: 70px;
+        height: 20px;
+        color: #49787E;
+    }
+    .all-projects {
+        grid-column: 2;
+        margin-left: 355px;
+    }
+    .img-fluid {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        margin: 24px 24px 0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .profile-info {
+        width: 310px;
+        height: 728px;
+    }
+    #profile-info-avatar {
+        width: 310px;
+        height: 310px;
+    }
+    h1 {
+        text-align: center;
+    }
+    #job-title {
+        text-align: center;
+    }
+    .HOME {
+        visibility: hidden;
+    }
+    .ABOUT {
+        visibility: hidden;
+    }
+    .description {
+        width: 310px;
+        height: 728px;
+        margin-top: 20px;
+    }
+    .img-fluid {
+        margin-bottom: 20px;
+        width: 100%;
     }
 }
