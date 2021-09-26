@@ -13,6 +13,9 @@ p {
 }
 
 @media (min-width: 1366px) {
+    .icons-hamburger {
+        visibility: hidden;
+    }
     .container {
         margin: 40px 40px 0 40px;
         display: grid;
@@ -32,6 +35,9 @@ p {
         width: 310px;
         height: 728px;
         margin-top: 20px;
+    }
+    .icons-medium {
+        padding-left: 20px;
     }
     .HOME {
         width: 70px;
@@ -54,6 +60,9 @@ p {
 }
 
 @media (min-width: 992px) and (max-width: 1366px) {
+    .icons-hamburger {
+        visibility: hidden;
+    }
     .container {
         margin: 24px 24px 0 40px;
         display: grid;
@@ -73,6 +82,9 @@ p {
         width: 310px;
         height: 728px;
         margin-top: 20px;
+    }
+    .icons-medium {
+        padding-left: 20px;
     }
     .HOME {
         width: 70px;
@@ -95,6 +107,11 @@ p {
 }
 
 @media (max-width: 992px) {
+    .icons-hamburger {
+        position: absolute;
+        right: 0px;
+        margin-right: 24px;
+    }
     .container {
         margin: 24px 24px 0;
         display: flex;
@@ -102,18 +119,25 @@ p {
         justify-content: center;
     }
     .profile-info {
-        width: 310px;
-        height: 728px;
+        width: 100%;
+        height: 600px;
     }
     #profile-info-avatar {
         width: 310px;
         height: 310px;
     }
+    .avatar {
+        text-align: center;
+    }
     h1 {
         text-align: center;
+        margin-top: 20px;
     }
     #job-title {
         text-align: center;
+    }
+    .icons-medium {
+        padding-left: 20px;
     }
     .HOME {
         visibility: hidden;
@@ -122,7 +146,7 @@ p {
         visibility: hidden;
     }
     .description {
-        width: 310px;
+        width: 100%;
         height: 728px;
         margin-top: 20px;
     }
