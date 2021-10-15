@@ -1,0 +1,239 @@
+html,
+body {
+    font-family: 'PingFang TC', 'Noto Sans TC', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    height: 56px;
+}
+
+.nav-avatar {
+    width: 34px;
+    height: 34px;
+}
+
+.nav-name {
+    letter-spacing: 1px;
+    margin-left: 20px;
+    font-weight: 600px;
+    font-size: 16px;
+    color: #7D8A80;
+}
+
+.nav-projects {
+    margin-right: 40px;
+    font-weight: 600px;
+    font-size: 16px;
+    color: #7D8A80;
+}
+
+.nav-about {
+    margin-right: 40px;
+    font-weight: 600px;
+    font-size: 16px;
+    color: #7D8A80;
+}
+
+.icons-menu {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 40px;
+    top: 72px;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background-color: #EBF3FE;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    margin-left: 233.84px;
+    margin-right: 233.84px;
+}
+
+.content-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: -16px;
+}
+
+.wireframe {
+    margin-bottom: 30px;
+}
+
+.content-subtitle {
+    margin-left: 24px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.content-subtitle-2 {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.content-subtitle-2-1 {
+    width: 50%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 140%;
+    color: #7D8A80;
+}
+
+.content-subtitle-2-2 {
+    width: 100%;
+}
+
+.images .image-part {
+    position: relative;
+    max-width: 120%;
+    margin: 0 -10%;
+}
+
+.image-part-a {
+    width: 110%;
+}
+
+.image-part-desc {
+    text-align: center;
+    font-size: 12px;
+    color: #74848B;
+}
+
+.image-part-b {
+    margin: 20px -12.5%;
+    width: 125%;
+}
+
+.image-part-c {
+    margin: 20px -12.5%;
+    width: 125%;
+}
+
+.fa-circle {
+    margin-right: 10px;
+    color: gray;
+    font-size: 10px;
+}
+
+.circle-content {
+    font-weight: 600;
+    font-size: 18px;
+    color: #7D8A80;
+    margin: 0 0 0 10px;
+}
+
+.image-part-d {
+    margin: 20px -15%;
+    width: 130%;
+}
+
+.image-part-e {
+    margin: 0 -12.5%;
+    width: 125%;
+}
+
+.fa-arrow-circle-down {
+    margin: 20px 50%;
+    color: #7D8A80;
+}
+
+.image-part-f {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.image-part-g {
+    margin: 20px -15%;
+    width: 130%;
+}
+
+.image-part-h {
+    margin: 0 -12.5%;
+    width: 130%;
+}
+
+.image-part-i {
+    margin: 0 -12.5%;
+    width: 130%;
+}
+
+.image-part-j {
+    margin: 0 -10%;
+    width: 120%;
+}
+
+.image-part-k {
+    margin: 0 -15%;
+    width: 130%;
+}
+
+.image-part-l {
+    margin: 0 10%;
+    width: 90%;
+}
+
+.sharing {
+    margin-bottom: 20px;
+}
+
+.image-part-m,
+.image-part-n,
+.image-part-o {
+    width: 100%;
+}
+
+.long-bar {
+    margin-top: 40px;
+    display: flex;
+    height: 76px;
+    background-color: #4F86CA;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.next {
+    width: 100%;
+    margin-top: 100px;
+}
