@@ -69,8 +69,8 @@ h1 {
 }
 
 section {
-    margin-left: 23.6%;
-    margin-right: 23.6%;
+    margin-left: 23.645681%;
+    margin-right: 23.645681%;
 }
 
 .content-title {
@@ -134,17 +134,11 @@ section {
     width: 125%;
 }
 
-.fa-circle {
-    margin-right: 10px;
-    color: gray;
-    font-size: 10px;
-}
-
 .circle-content {
     font-weight: 600;
     font-size: 18px;
     color: #7D8A80;
-    margin: 0 0 0 10px;
+    margin: 0;
 }
 
 .image-part-d {
