@@ -4,5 +4,4 @@ document.cookie = 'test1=Hello'
 document.cookie = 'test2=World'
 
 // 設定一個 username cookie 裡面的值是 Mike，儲存一個月
-document.cookie = 'username=Mike; max-age=2592000; path=/'
-document.cookie = 'foo=' + encoㄊdeURIComponent(anyValue)
+document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"
