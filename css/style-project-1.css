@@ -228,6 +228,39 @@ section {
 }
 
 .next {
+    margin-top: 104px;
+    display: flex;
+    background: #FAFAFA;
     width: 100%;
-    margin-top: 100px;
+    height: 100%;
+    justify-content: center;
+}
+
+.next_inbox {
+    display: flex;
+    flex-direction: column;
+    width: 41.14202%;
+    height: 74.901961%;
+}
+
+.next_inbox_top {
+    font-size: 26px;
+    color: #49787E;
+}
+
+.next_inbox_down {
+    display: flex;
+    font-size: 18px;
+    color: #414A4E;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.next_letter {
+    width: 83.03%;
+    height: 52.941176%;
+}
+
+.next_inbox_down_p {
+    font-weight: 600;
 }
