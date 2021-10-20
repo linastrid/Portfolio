@@ -1,3 +1,4 @@
+@import "style-project-1";
 html,
 body {
     font-family: 'PingFang TC', 'Noto Sans TC', sans-serif;
@@ -22,8 +23,8 @@ p {
 
 #button {
     display: none;
+    bottom: 40px;
     right: 40px;
-    top: 33%;
     position: fixed;
     z-index: 1000;
 }
