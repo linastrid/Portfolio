@@ -16,6 +16,18 @@ p {
     justify-content: center;
 }
 
+.icons-BTP {
+    width: 40px;
+}
+
+#button {
+    display: none;
+    right: 40px;
+    top: 33%;
+    position: fixed;
+    z-index: 1000;
+}
+
 nav {
     position: fixed;
     width: 100%;

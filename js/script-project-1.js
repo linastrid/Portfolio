@@ -5,3 +5,39 @@ document.cookie = 'test2=World'
 
 // 設定一個 username cookie 裡面的值是 Mike，儲存一個月
 document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"
+
+// var btn = $('#button')
+
+// $(window).scroll(function () {
+//     if ($(window).scrollTop() > 768) {
+//         // btn.addClass('show')
+//         btn.style.opacity = '1'
+//         btn.style.visibility = 'visible'
+//     } else {
+//         btn.removeClass('show')
+//     }
+// });
+
+// btn.on('click', function (e) {
+//     e.preventDefault()
+//     $('html, body').animate({ scrollTop: 0 }, '300')
+// });
+
+$(document).ready(function () {
+    // Show or hide the sticky footer button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 768) {
+            $('#button').fadeIn(200);
+        } else {
+            $('#button').fadeOut(200);
+        }
+    });
+
+    // Animate the scroll to top
+    $('#button').click(function (event) {
+        event.preventDefault();
+
+        $('html, body').animate({ scrollTop: 0 }, 300);
+    })
+});
+
