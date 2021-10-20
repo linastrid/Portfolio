@@ -17,13 +17,15 @@ p {
 }
 
 nav {
-    position: relative;
+    position: fixed;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 .nav-profile {
@@ -73,6 +75,7 @@ nav {
     width: 100%;
     height: 100%;
     background-color: #EBF3FE;
+    margin-top: 56px;
 }
 
 h1 {
