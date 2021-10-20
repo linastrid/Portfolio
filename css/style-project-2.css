@@ -130,9 +130,12 @@ section {
 
 .content-subtitle-2-1 {
     width: 50%;
+    font-style: normal;
     font-weight: 600;
     font-size: 26px;
+    line-height: 140%;
     color: #7D8A80;
+    padding: 10px 20px;
 }
 
 .content-subtitle-2-2 {
@@ -288,11 +291,11 @@ section {
     width: 100%;
 }
 
-.long-bar {
+.title {
     margin-top: 40px;
     display: flex;
-    height: 76px;
-    background-color: #009EBE;
+    height: 116px;
+    background-color: #4F86CA;
     align-items: center;
     justify-content: center;
     font-weight: 600;
