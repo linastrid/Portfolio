@@ -124,10 +124,9 @@ section {
 }
 
 .content-subtitle {
-    margin-left: 24px;
     font-weight: 600;
     font-size: 20px;
-    padding: 20px;
+    padding: 0 0 0 24px;
 }
 
 .content-subtitle-2 {
@@ -166,20 +165,18 @@ section {
 }
 
 .image-part-b {
-    margin: 20px -12.5%;
-    width: 125%;
+    width: 136.112%;
 }
 
 .image-part-c {
-    margin: 20px -12.5%;
-    width: 125%;
+    width: 138.89%;
 }
 
 .circle-content {
     font-weight: 600;
     font-size: 18px;
     color: #7D8A80;
-    margin: 0;
+    margin: 20px 0 20px;
 }
 
 .image-part-d {
@@ -188,8 +185,7 @@ section {
 }
 
 .image-part-e {
-    margin: 0 -12.5%;
-    width: 125%;
+    width: 111.11111%;
 }
 
 .fa-arrow-circle-down {
@@ -198,13 +194,11 @@ section {
 }
 
 .image-part-f {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 94.445%;
 }
 
 .image-part-g {
-    margin: 20px;
-    width: 130%;
+    width: 119.445%;
 }
 
 .image-part-h {
@@ -212,7 +206,7 @@ section {
 }
 
 .image-part-i {
-    width: 130%;
+    width: 125%;
 }
 
 .image-part-j {
