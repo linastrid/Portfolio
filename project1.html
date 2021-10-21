@@ -35,19 +35,36 @@
         </nav>
     </header>
     <main>
+        <div class="wrapper">
+            <input type="checkbox" id="menuToggler" class="input-toggler" />
+            <label for="menuToggler" class="menu-toggler">
+            <div class="icons">
+                <img class="icons-menu menu-toggler__line" src="./images/icon/menu.png" alt="#">
+            </div>
+            </label>
+            <aside class="sidebar">
+                <ul class="menu">
+                    <p class="menu-title">TABLE OF CONTENTS</p>
+                    <li class="menu__item"><a class="menu__link" href="#Background">Background</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#Team">Team</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#DP">Define Problems</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#PB">Project Backlogs</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#WP">Wireframe and Prototyping</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#VD">Visual Design and User Flowchart</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#FC">Feedback and Conclusion</a></li>
+                </ul>
+            </aside>
+        </div>
         <a href="#" id="button">
             <img class="icons-BTP" src="./images/icon/BTP.png" alt="#">
         </a>
         <div class="container">
-            <div class="icons">
-                <img class="icons-menu menu-trigger" src="./images/icon/menu.png" alt="#">
-            </div>
             <div>
                 <img class="cover" src="./images/Cover.png" alt="#">
             </div>
-            <section class="content">
+            <section class="content-section">
                 <h1>Chemical Dispersion Modeling Website</h1>
-                <div>
+                <div id="Background">
                     <span class="content-title">
                     <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Background</p>
                     </span>
@@ -55,7 +72,7 @@
                         analysis for years, but they were hoping to transform it into an online version to make the analyzing jobs more flexible.</p>
                 </div>
 
-                <div>
+                <div id="Team">
                     <span class="content-title">
                     <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Team</p>
                     </span>
@@ -85,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div id="DP">
                     <span class="content-title">
                     <img src="./images/icon/Highlight_bar.png" alt="#">
                     <p class="content-subtitle">Define Problems</p>
@@ -117,7 +134,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div id="PB">
                     <span class="content-title">
                     <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Project Backlogs</p>
                     </span>
@@ -127,8 +144,10 @@
                     </div>
                 </div>
             </section>
-            <div class="title">
-                <p>Wireframe and Prototyping</p>
+            <div id="WP">
+                <div class="title">
+                    <p>Wireframe and Prototyping</p>
+                </div>
             </div>
             <section>
                 <div>
@@ -213,8 +232,10 @@
                     </div>
                 </div>
             </section>
-            <div class="title">
-                <p>Visual Design and User Flowchart</p>
+            <div id="VD">
+                <div class="title">
+                    <p>Visual Design and User Flowchart</p>
+                </div>
             </div>
             <section>
                 <div>
@@ -273,9 +294,10 @@
                     <p class="image-part-desc">The dispersion modeling output result page.</p>
                 </div>
             </section>
-
-            <div class="title">
-                <p>Results and Feedback</p>
+            <div id="FC">
+                <div class="title">
+                    <p>Results and Feedback</p>
+                </div>
             </div>
             <section>
                 <div class="video-container">
