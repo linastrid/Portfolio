@@ -1,4 +1,3 @@
-@import "style-project-1";
 html,
 body {
     font-family: 'PingFang TC', 'Noto Sans TC', sans-serif;
@@ -337,21 +336,19 @@ section {
 
 :root {
     --sidebar-width: 323px;
-    --toggler-size: 40px;
 }
 
 .sidebar {
     background: white;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    width: var(--sidebar-width);
+    width: 323px;
     transform: translateX(calc(var(--sidebar-width) * 1));
     display: flex;
     align-items: center;
     position: fixed;
-    top: 120px;
-    bottom: 50%;
     right: 0;
+    top: 120px;
     transition: transform .6s, background-position 1s .6s;
     z-index: 1;
 }
