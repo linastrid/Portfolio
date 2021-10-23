@@ -376,7 +376,8 @@ section {
 .menu__link:hover,
 .menu__link:focus,
 .menu__link:active {
-    color: black;
+    color: #485D60;
+    ;
 }
 
 .menu-toggler {
