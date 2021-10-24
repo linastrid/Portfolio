@@ -241,8 +241,17 @@ section {
     width: 138.89%;
 }
 
-.image-part-3k {
+.image-part-3k-1 {
     width: 100%;
+}
+
+.image-part-3k-2 {
+    /* margin-left: 97px; */
+    width: 100%;
+}
+
+.img-container-right {
+    margin-left: 97px;
 }
 
 .sharing {
@@ -373,23 +382,8 @@ section {
     display: none;
 }
 
-#Background:before,
-#Team:before,
-#DP:before,
-#PB:before {
-    content: '';
-    display: block;
-    height: 50px;
-    visibility: hidden;
-}
-
-#RIW:before,
-#Design:before,
-#TC:before {
-    content: '';
-    height: 16px;
-    display: block;
-    visibility: hidden;
+:root {
+    scroll-padding-top: 3.5rem;
 }
 
 .menu-title {
@@ -492,19 +486,19 @@ section {
 
 #hamburger-4.is-active .line:nth-child(1),
 #hamburger-4.is-active .line:nth-child(3) {
-    width: 18px;
+    width: 10px;
 }
 
 #hamburger-4.is-active .line:nth-child(1) {
-    -webkit-transform: translateX(5px) rotate(45deg);
-    -ms-transform: translateX(5px) rotate(45deg);
-    -o-transform: translateX(5px) rotate(45deg);
-    transform: translateX(5px) rotate(45deg);
+    -webkit-transform: translateX(10px) rotate(45deg) translateY(4px);
+    -ms-transform: translateX(10px) rotate(45deg) translateY(4px);
+    -o-transform: translateX(10px) rotate(45deg) translateY(4px);
+    transform: translateX(10px) rotate(45deg) translateY(4px);
 }
 
 #hamburger-4.is-active .line:nth-child(3) {
-    -webkit-transform: translateX(5px) rotate(-45deg);
-    -ms-transform: translateX(5px) rotate(-45deg);
-    -o-transform: translateX(5px) rotate(-45deg);
-    transform: translateX(5px) rotate(-45deg);
+    -webkit-transform: translateX(10px) rotate(-45deg) translateY(-4px);
+    -ms-transform: translateX(10px) rotate(-45deg) translateY(-4px);
+    -o-transform: translateX(10px) rotate(-45deg) translateY(-4px);
+    transform: translateX(10px) rotate(-45deg) translateY(-4px);
 }
