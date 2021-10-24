@@ -23,3 +23,9 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: 0 }, 300);
     })
 });
+
+$(document).ready(function () {
+    $(".hamburger").click(function () {
+        $(this).toggleClass("is-active");
+    });
+});
