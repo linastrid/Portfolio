@@ -18,7 +18,7 @@
         <nav>
             <div class="nav-profile">
                 <div style="text-decoration: none" href="#">
-                    <img class="nav-avatar" src="./images/avatar.png" alt="#">
+                    <img class="nav-avatar" src="./images/common/avatar.png" alt="#">
                 </div>
                 <span class="nav-name">
                 Astrid Lin
@@ -38,20 +38,23 @@
         <div class="wrapper">
             <input type="checkbox" id="menuToggler" class="input-toggler" />
             <label for="menuToggler" class="menu-toggler">
-            <div class="icons">
-                <img class="icons-menu menu-toggler__line" src="./images/icon/menu.png" alt="#">
-            </div>
+                <div class="hamburger icons-menu" id="hamburger-4">
+                    <div class="hamburger-around">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    </div>
+                </div>
             </label>
             <aside class="sidebar">
                 <ul class="menu">
                     <p class="menu-title">TABLE OF CONTENTS</p>
                     <li class="menu__item"><a class="menu__link" href="#Background">Background</a></li>
                     <li class="menu__item"><a class="menu__link" href="#Team">Team</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#DP">Define Problems</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#PB">Project Backlogs</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#WP">Wireframe and Prototyping</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#VD">Visual Design and User Flowchart</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#FC">Feedback and Conclusion</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#Goals">Goals</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#Redesign">Redesign</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#NF">New Feature - Attendance System</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#TONS">The Outcome & Next Steps</a></li>
                 </ul>
             </aside>
         </div>
@@ -60,18 +63,35 @@
         </a>
         <div class="container">
             <div>
-                <img class="cover" src="./images/Cover.png" alt="#">
+                <img class="cover" src="./images/images-project2/Cover.jpg" alt="#">
             </div>
             <section class="content-section">
-                <h1>Chemical Dispersion Modeling Website</h1>
+                <h1>Fasteyes - The Body Temperature & Face Reognition Attendance System Improvement</h1>
+                <p class="fake-20-px"></p>
                 <div id="Background">
                     <span class="content-title">
                     <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Background</p>
                     </span>
-                    <p>This project was outsourced by an emergency response agency, which often provides technical support on environmental hazards. According to the client's description, they have been using a chemical dispersion modeling software on hazard
-                        analysis for years, but they were hoping to transform it into an online version to make the analyzing jobs more flexible.</p>
+                    <p>Fasteyes is now a standard product in the company I worked for. When I first saw the product, it was just a body temperature detection prototype, and my job was to improve and extend its functionality.</p>
+                    <div class="img-container images-part-2a">
+                        <div class="img-container-left">
+                            <img class="image-part-2a-1" src="./images/images-project2/2a-1.png" alt="#">
+                            <div class="center-box">
+                                <div class="Previous-Now-version">
+                                    <p>Previous</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-container-right">
+                            <img class="image-part-2a-2" src="./images/images-project2/2a-2.png" alt="#">
+                            <div class="center-box">
+                                <div class="Previous-Now-version">
+                                    <p>Now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
                 <div id="Team">
                     <span class="content-title">
                     <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Team</p>
@@ -90,221 +110,279 @@
                         <div class="card card-right">
                             <ul class="card-right-ul">
                                 <p class="card-right-p">Collaborate With</p>
+                                <li>Peggy Cao
+                                    <font color="#A1AAAE">
+                                        (UI / UX designer)</font>
+                                </li>
                                 <li>Chang Ting Wei
                                     <font color="#A1AAAE">
                                         (Front-end engineer)</font>
                                 </li>
-                                <li>Frank Lin
+                                <li>Sam Chen
                                     <font color="#A1AAAE">(Back-end engineer)
                                     </font>
+                                </li>
+                                <li>Auggie
+                                    <font color="#A1AAAE">
+                                        (Image processing engineer)</font>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div id="DP">
+                <div id="Goals">
                     <span class="content-title">
                     <img src="./images/icon/Highlight_bar.png" alt="#">
-                    <p class="content-subtitle">Define Problems</p>
+                    <p class="content-subtitle">Goals</p>
                     </span>
-                    <p>There are several reasons why the client wanted to transform the dispersion modeling software into an online version:</p>
                     <div class="content-subtitle-2">
                         <div class="content-subtitle-2-1">
-                            <div>More</div>
-                            <div>Reachable.</div>
+                            <div>UI & UX</div>
+                            <div>Improvement</div>
                         </div>
-                        <p class="content-subtitle-2-2">Unlike local software, a web can be opened on almost any device. In that way, our clients do not need to bring a laptop everywhere, especially when dealing with urgent cases.
+                        <p class="content-subtitle-2-2">As we can see in the picture above, the previous one was just an early prototype, so there was a lot of room for improvement on its UI & UX.
                         </p>
                     </div>
                     <div class="content-subtitle-2">
                         <div class="content-subtitle-2-1">
-                            <div>More Flexible.</div>
+                            <div>Attendance</div>
+                            <div>System</div>
+                            <div>Development</div>
                         </div>
-                        <p class="content-subtitle-2-2">Once the web and its APIs are developed, its application level can be diverse. For example, we can connect the web data into the system our clients were currently using.
+                        <p class="content-subtitle-2-2">It was not enough to stand out in the market if the product could only detect human temperature and upload the data online. Therefore, we developed a facial recognition attendance system based on the original functions.
                         </p>
                     </div>
                     <div class="content-subtitle-2">
                         <div class="content-subtitle-2-1">
-                            <div>Easier to</div>
-                            <div>Manage.</div>
+                            <div>Optimizations</div>
                         </div>
-                        <p class="content-subtitle-2-2">In the original software, all the modeling results need to be stored in a specific file format, which is inconvenient to share and manage. However, in the web version, all the results and setting changes can be saved immediately,
-                            or even be shared with other users.
+                        <p class="content-subtitle-2-2">Other optimizations such as improving the accuracy of temperature detection, face detection and face recognition, etc. We also added many new functions such as mask detection, ERP integration, and a device binding mechanism.
                         </p>
-                    </div>
-                </div>
-
-                <div id="PB">
-                    <span class="content-title">
-                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Project Backlogs</p>
-                    </span>
-                    <div class="images">
-                        <img class="image-part" src="./images/Part1.png" alt="#">
-                        <img class="image-part" src="./images/Part2.png" alt="#">
                     </div>
                 </div>
             </section>
-            <div id="WP">
+            <div id="Redesign">
                 <div class="title">
-                    <p>Wireframe and Prototyping</p>
+                    <p>Redesign</p>
                 </div>
             </div>
+            <p class="fake-20-px"></p>
             <section>
-                <div>
-                    <span class="content-title">
-                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Flowchart of the original software</p>
-                    </span>
-                    <p>As the client had been using the original software for a long time, it was essential to understand the existing user flow. Together with the engineers, we organized the user flowchart and added the corresponding source code functions
-                        for a more comprehensive analysis.</p>
-                    <div class="img-container">
-                        <img class="image-part-a" src="./images/a.png" alt="#">
+                <p>There are 2 kinds of interface in this product. In this article, I would put emphasis on the management website that I designed.</p>
+                <div class="img-container">
+                    <div class="img-container-left">
+                        <img class="image-part-2b-1" src="./images/images-project2/2b-1.png" alt="#">
+                        <div class="center-box">
+                            <p>Fasteyes software for facial detection and recognition.</p>
+                        </div>
                     </div>
-                    <p class="image-part-desc">A small piece of the flowchart with sensitive information hided.</p>
-                </div>
-                <div>
-                    <span class="content-title">
-                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">User Journey</p>
-                    </span>
-                    <p>To be continue...</p>
-                </div>
-                <div>
-                    <span class="content-title">
-                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">The New Web Sitemap</p>
-                    </span>
-                    <p>To create a better experience and maintain the core functions of the original software at the same time, I tried to imitate the existing user flow but to optimize some complex processes so that it could be more simple for both users
-                        and developers.</p>
-                    <p>For example, the functional map of the original software is quite complicated, so I redesigned the process into 5 main steps, which would be easier to use and develop.</p>
-                    <div class="img-container">
-                        <img class="image-part-b" src="./images/b.png" alt="#">
-                    </div>
-                    <p class="image-part-desc">The functional map comparison between 2 systems.</p>
-                    <div class="img-container">
-                        <img class="image-part-c" src="./images/c.png" alt="#">
-                    </div>
-                    <p class="image-part-desc">A simplified sitemap of the web.</p>
-                </div>
-                <div>
-                    <span class="content-title">
-                    <img src="./images/icon/Highlight_bar.png" alt="#">
-                    <p class="content-subtitle">Wireframe</p>
-                    </span>
-                    <ul class="circle-content">
-                        <li>Environment Setup</li>
-                    </ul>
-                    <p>In the original software, users can only input Longitude and Latitude Information, and they even have to input almost the same data again when stimulating the chemical dispersion. Therefore, after some iterations with our client, we
-                        <font color="#2E9F23">embedded the Google Map preview (a)</font> and added an address column so that
-                        <font color="#2E9F23">system can directly transform the address into Longitude and Latitude (b).</font>
-                    </p>
-                    <p>In the visual design phase, this user flow would be further improved.</p>
-                    <div class="img-container">
-                        <img class="image-part-d" src="./images/d.png" alt="#">
-                    </div>
-                    <ul class="circle-content">
-                        <li>Weather conditions automatic setup</li>
-                    </ul>
-                    <p>The biggest change in this revision was that we discarded the complicated input columns in the original version. In another way,
-                        <font color="#2E9F23">we connected the public APIs' of weather stations in Taiwan (a)</font> and automatically filled in the requested columns.
-                        <font color="#2E9F23">Some parameters, such as inversion height and stability class, etc, were calculated by the algorithm. (b)</font>
-                    </p>
-                    <p>In this way, the user doesn't need to fill in or calculate any data by themselves, which saves a lot of time.</p>
-                    <div class="img-container">
-                        <img class="image-part-e" src="./images/e.png" alt="#">
-                    </div>
-                    <div style="font-size: 30px;"><i class="fas fa-arrow-circle-down"></i>
-                    </div>
-                    <div class="img-container">
-                        <img class="image-part-f" src="./images/f.png" alt="#">
-                    </div>
-                    <ul class="circle-content">
-                        <li>Chemical in tank conditions setup</li>
-                    </ul>
-                    <p>One of the setups in this software was to simulate the condition of chemicals stored in a tank. The setting process was very complicated, and each parameter would even interactively influence another one. Therefore, I used a process
-                        step pattern to minimize the user burden.</p>
-                    <p>
-                        <font color="#2E9F23">a. The user can edit the previous settings.</font>
-                    </p>
-                    <p>
-                        <font color="#2E9F23">b.</font> As some parameters would influence the next settings,
-                        <font color="#2E9F23">I put a save button in each step and only when the button was activated and clicked will lead user to the next step.</font>
-                    </p>
-                    <div class="img-container">
-                        <img class="image-part-g" src="./images/g.png" alt="#">
+                    <div class="img-container-right">
+                        <img class="image-part-2b-2" src="./images/images-project2/2b-2.png" alt="#">
+                        <div class="center-box">
+                            <p>Management website for both desktop and mobile users. (Designed by me)</p>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <div id="VD">
-                <div class="title">
-                    <p>Visual Design and User Flowchart</p>
-                </div>
-            </div>
-            <section>
-                <div>
+                <div id="DS">
                     <span class="content-title">
                     <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Design System</p>
                     </span>
-                    <p>As for the design system, except for color and typography, I also designed some important components such as buttons, forms and modal, etc. Besides, I used Figma variants to improve my work efficiency.</p>
+                    <p class="fake-20-px"></p>
                     <div class="img-container">
-                        <img class="image-part-h" src="./images/h.png" alt="#">
+                        <img class="image-part-2c" src="./images/images-project2/2c.png" alt="#">
                     </div>
-                    <p class="image-part-desc">The primary and the secondary color were based on the web system that our client was using.</p>
-                    <div class="img-container">
-                        <img class="image-part-i" src="./images/i.png" alt="#">
-                    </div>
-                    <p class="image-part-desc">Some of the components I designed using Figma variants.
-                    </p>
+                    <p class="fake-20-px"></p>
                 </div>
-                <div>
+                <div id="DP">
                     <span class="content-title">
-                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Environment Setup</p>
+                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Dashboard Page</p>
                     </span>
-                    <p>The original wireframe design has been found imperfect during the development because the way developers called APIs were varied from my previous thoughts. Therefore, I adjusted the user flow of location input columns.</p>
+                    <p class="fake-20-px"></p>
                     <div class="img-container">
-                        <img class="image-part-j" src="./images/j.png" alt="#">
+                        <img class="image-part-2d" src="./images/images-project2/2d.png" alt="#">
+                    </div>
+                    <p class="fake-20-px"></p>
+                    <div class="original-version">
+                        <div class="original-version-left">
+                            <p>Original</p>
+                        </div>
+                        <div class="original-version-right">
+                        </div>
+                    </div>
+                    <div>
+                        <p>In the original version, there were some impractical or non-functional features such as "Connected device list" and "Normal temperature amount list for each device", so they were removed in the revision.</p>
+                        <p class="fake-20-px"></p>
+                        <div class="img-container">
+                            <div class="img-container-2-left">
+                                <div class="img-container">
+                                    <img class="image-part-2e-1" src="./images/images-project2/2e-1.png" alt="#">
+                                </div>
+                            </div>
+                            <div class="img-container-2-right">
+                                <div class="img-container">
+                                    <img class="image-part-2e-2" src="./images/images-project2/2e-2.png" alt="#">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="fake-20-px"></p>
+                        <div class="revised-version">
+                            <div class="revised-version-left">
+                                <p>Revised</p>
+                            </div>
+                            <div class="revised-version-right">
+                            </div>
+                        </div>
+                        <p>In the revised version, I also added a date and time picker, and a device multi-select dropdown, so that users can easily filter out the data range they need. Also, the original "Normal temperature" card was replaced by "Abnormal
+                            cases today".</p>
                     </div>
                 </div>
-                <div>
+                <div id="HP">
                     <span class="content-title">
-                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">How I Presented my Design to Developers</p>
+                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">History Page</p>
                     </span>
-                    <p>If the flowchart was not complicated, I would use some simple flow arrows to demonstrate the interactions and describe the conditions, regulations, and default options on notes to make communication with developers more efficient.</p>
+                    <p class="fake-20-px"></p>
                     <div class="img-container">
-                        <img class="image-part-k" src="./images/k.png" alt="#"></div>
-                    <p class="image-part-desc">The weather conditions automatic setup page.</p>
-                    <p>However, the user flows were usually complicated, so I would normally illustrate an independent flowchart to explain the interactions.</p>
-                    <div class="img-container">
-                        <img class="image-part-l" src="./images/l.png" alt="#">
+                        <img class="image-part-2f" src="./images/images-project2/2f.png" alt="#">
                     </div>
-                    <p class="image-part-desc">The complicated flow of chemical in tank conditions setup.</p>
-                </div>
-                <div>
-                    <span class="content-title sharing">
-                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Some Other Pages Worth Sharing</p>
-                    </span>
-                    <div class="img-container">
-                        <img class="image-part-m" src="./images/m.png" alt="#">
+                    <p class="fake-20-px"></p>
+                    <div class="original-version">
+                        <div class="original-version-left">
+                            <p>Original</p>
+                        </div>
+                        <div class="original-version-right">
+                        </div>
                     </div>
-                    <p class="image-part-desc">The environment conditions automatic setup page.</p>
+                    <p class="fake-20-px"></p>
                     <div class="img-container">
-                        <img class="image-part-n" src="./images/n.png" alt="#">
+                        <div class="img-container-2-left">
+                            <div class="img-container">
+                                <img class="image-part-2e-1" src="./images/images-project2/2e-1.png" alt="#">
+                            </div>
+                        </div>
+                        <div class="img-container-2-right">
+                            <div class="img-container">
+                                <img class="image-part-2e-2" src="./images/images-project2/2e-2.png" alt="#">
+                            </div>
+                        </div>
                     </div>
-                    <p class="image-part-desc">The chemical in tank setting page.</p>
-                    <div class="img-container">
-                        <img class="image-part-o" src="./images/o.png" alt="#">
+                    <p class="fake-20-px"></p>
+                    <div class="revised-version">
+                        <div class="revised-version-left">
+                            <p>Revised</p>
+                        </div>
+                        <div class="revised-version-right">
+                        </div>
                     </div>
-                    <p class="image-part-desc">The dispersion modeling output result page.</p>
+                    <p>On the history page, I used the same control bar for users to filter the time and devices. Those settings will remain on every page until the user changes them. In addition, a search bar, a download button, and a picture preview field
+                        were added.</p>
                 </div>
             </section>
-            <div id="FC">
+            <div id="NF">
                 <div class="title">
-                    <p>Results and Feedback</p>
+                    <p>New Feature - Attendance System</p>
                 </div>
             </div>
+            <p class="fake-20-px"></p>
             <section>
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/k3KxhtYykYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div id="FS">
+                    <span class="content-title">
+                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Fasteyes Software</p>
+                    </span>
+                    <p>Together with Peggy, the other UX designer, we made a lot of changes to the Fasteyes software for the attendance system.</p>
+                    <div class="img-container">
+                        <img class="image-part-2h" src="./images/images-project2/2h.jpeg" alt="#">
+                    </div>
+                    <p class="fake-20-px"></p>
+                    <div class="original-version">
+                        <div class="original-version-left">
+                            <p>Original</p>
+                        </div>
+                        <div class="original-version-right">
+                        </div>
+                    </div>
+                    <p class="fake-20-px"></p>
+                    <div class="img-container">
+                        <img class="image-part-2i" src="./images/images-project2/2i.png" alt="#">
+                    </div>
+                    <p class="fake-20-px"></p>
+                    <div class="revised-version">
+                        <div class="revised-version-left">
+                            <p>Revised</p>
+                        </div>
+                        <div class="revised-version-right">
+                        </div>
+                    </div>
+                    <p class="fake-20-px"></p>
+                    <ol>
+                        <li>The grayscale background was replaced by the primary color defined by the color system.</li>
+                        <li>On the large screen, we found that people would tend to move around instead of standing still, and that made recognition difficult. So we narrowed the camera display size and added some text hints.</li>
+                        <li>A lot more options were added on the settings page.</li>
+                    </ol>
                 </div>
-                <p>During the whole project, we had a sprint review & planning meeting every 1-2 weeks with our client and had a quick stand-up meeting every morning to keep every teammate on the same page. This scrum development process effectively reduced
-                    communication barriers. Overall, our client was quite satisfied with the collaboration and the out-coming results. The project was still in the development stage, and we all look forward to the final MVP.</p>
+                <div id="RS">
+                    <span class="content-title">
+                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Report System</p>
+                    </span>
+                    <p>In the early stage of development, the recognition accuracy was not quite good, but the MVP had already been released. Therefore, I designed a reporting system to let users manually correct the misjudged cases, and the back-end system
+                        would automatically collect these data for developers to further improve the accuracy.</p>
+                    <div class="img-container">
+                        <img class="image-part-2j" src="./images/images-project2/2j.png" alt="#">
+                    </div>
+                    <p class="fake-20-px"></p>
+                </div>
+                <span class="content-title">
+                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Other Features</p>
+                    </span>
+                <ul class="circle-content">
+                    <li>Attendance Record</li>
+                </ul>
+                <div class="img-container">
+                    <img class="image-part-2k" src="./images/images-project2/2k.png" alt="#">
+                </div>
+                <ol>
+                    <li>The attendance record page only presents the staff checking history and the earliest and latest time based on the selected time range. This function is especially useful for companies that have 3 switch systems.</li>
+                    <li>Another hidden customized feature is that we can sync the data to the HR system or ERP that users are using.</li>
+                </ol>
+                <ul class="circle-content">
+                    <li>Upload Staff List</li>
+                </ul>
+                <div class="img-container">
+                    <img class="image-part-2l" src="./images/images-project2/2l.png" alt="#">
+                </div>
+                <p>On the staff management page, users can upload a staff data list at one time, or just add staff one by one.</p>
+            </section>
+            <p class="fake-20-px"></p>
+            <div id="TONS">
+                <div class="title">
+                    <p>The Outcome & Next Steps</p>
+                </div>
+            </div>
+            <p class="fake-20-px"></p>
+            <section>
+                <span class="content-title">
+                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">The Outcome</p>
+                    </span>
+                <ol>
+                    <li>A
+                        <font color="#E68C5F">70% increase</font> in orders and interested buyers.</li>
+                    <p class="fake-20-px"></p>
+                    <li>An
+                        <font color="#E68C5F">80% decrease</font> in complaints about bugs and bad experiences received from customers.</li>
+                    <p class="fake-20-px"></p>
+                    <li>
+                        <font color="#E68C5F">Attract more</font> IoT projects and custom software development.</li>
+                </ol>
+                <span class="content-title">
+                    <img src="./images/icon/Highlight_bar.png" alt="#"> <p class="content-subtitle">Next Steps</p>
+                    </span>
+                <p>We found that customers’ demand for IoT customization is greater than that of simply a body temperature & face recognition system. This doesn't mean that they don't need Fasteyes, but that they need more extensive functions</p>
+                <div class="center-box">
+                    <p style="color:#E68C5F; font-weight:600;">
+                        <font size="26px">“An IoT Platform”</font>
+                    </p>
+                </div>
+                <p>The below article is about the IoT platform we built for a tech company, and that platform will also become an extended service based on Fasteyes.</p>
+
             </section>
             <div class="next">
                 <div class="next_inbox">
@@ -313,13 +391,12 @@
                     </div>
                     <div class="next_inbox_down">
                         <div>
-                            <img class="next_letter" src="./images/next_letter.png" alt="#">
+                            <img class="next_letter" src="./images/common/next_letter.png" alt="#">
                         </div>
                         <div>
-                            <div class="next_inbox_down_p">Face Recognition Temperature & Attendance System Improvement</div>
+                            <div class="next_inbox_down_p">Industrial IoT Platform Solutions</div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <section>
