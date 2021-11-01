@@ -5,6 +5,16 @@ body {
     padding: 0;
 }
 
+ol {
+    margin: 12px;
+    padding-left: 24px;
+}
+
+.emoji_ol {
+    padding: 0;
+    margin: 20px;
+}
+
 p {
     text-align: justify;
     text-justify: auto;
@@ -17,14 +27,31 @@ p.fake-20-px {
     content: ""
 }
 
+p.quote-p {
+    margin-bottom: 0;
+}
+
+.user_li {
+    line-height: 28px;
+    text-align: justify;
+}
+
+.emoji_li {
+    line-height: 19.6px;
+    text-align: justify;
+}
+
 hr {
     border: 1px solid #D3D9DC;
 }
 
+.center-box,
 .img-container {
     display: flex;
     justify-content: center;
 }
+
+.center-box {}
 
 .icons-BTP {
     width: 40px;
@@ -115,6 +142,23 @@ section {
     margin-bottom: -16px;
 }
 
+.Stakeholders-icon-s {
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Stakeholders-icon-s-1 {
+    margin-left: 0;
+}
+
+.Stakeholders-icon {
+    width: 60px;
+    height: 60px;
+}
+
 .cards {
     display: flex;
     margin-top: 20px;
@@ -122,12 +166,27 @@ section {
 }
 
 .card {
-    display: flex;
     background: #E7F1F3;
     border-radius: 6px;
-    margin-left: 20px;
     width: 100%;
-    margin: 0;
+    height: 100%;
+}
+
+
+/* Stakeholders */
+
+.card-1 {}
+
+.card-title-p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 12px 0 8px;
+}
+
+.card-p {
+    text-align: left;
+    margin: 0 12px 12px 12px;
 }
 
 .card-left-ul,
@@ -178,33 +237,42 @@ section {
     margin: 0 -10%;
 }
 
-.image-part-3a {
-    width: 56.806%;
-}
-
 .image-part-desc {
     text-align: center;
     font-size: 12px;
     color: #74848B;
 }
 
-.image-part-3b {
-    width: 71.945%;
+.image-part-4a {
+    width: 83.3334%;
 }
 
+.image-part-4b {
+    width: 111.1112%;
+}
 
-/* 100% */
+.image-part-4c {
+    width: 166.6667%;
+}
 
-.image-part-3c,
-.image-part-3d,
-.image-part-3e,
-.image-part-3f,
-.image-part-3g,
-.image-part-3i,
-.image-part-3l,
-.image-part-3r,
-.image-part-3y {
-    width: 100%;
+.image-part-4d {
+    width: 173.615%;
+}
+
+.image-part-4e {
+    width: 69.445%;
+}
+
+.image-part-4f {
+    width: 138.8889%;
+}
+
+.image-part-4g {
+    width: 61.1112%;
+}
+
+.image-part-4h {
+    width: 41.667%;
 }
 
 .circle-content {
@@ -277,7 +345,7 @@ section {
     margin-top: 40px;
     display: flex;
     height: 116px;
-    background-color: #49787E;
+    background-color: #3BB19C;
     text-align: center;
     align-items: center;
     justify-content: center;
