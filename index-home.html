@@ -6,17 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astird's Resume</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <script src="./js/script.js"></script>
 </head>
 
 <body>
     <main>
-        <div class="icons icons-hamburger">
-            <img class="icons-hamburger" src="./images/icon/hamburger.png" alt="">
+        <div class="wrapper">
+            <aside id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                    <div class="_hamburger">
+                        <div class="_hamburger-around">
+                            <span class="_line _line_1"></span>
+                            <span class="_line _line_2"></span>
+                        </div>
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link" href="#HOME">HOME</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#ABOUT">ABOUT</a></li>
+                </ul>
+                </a>
+            </aside>
+            <div class="openbtn" onclick="openNav()">
+                <div class="hamburger icons-menu" id="hamburger-4">
+                    <div class="hamburger-around">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="container">
             <div class="profile-info">
+                <p class="fake-60-px"></p>
                 <div class="avatar">
                     <img src="./images/common/avatar.png" alt="#" id='profile-info-avatar'>
                 </div>

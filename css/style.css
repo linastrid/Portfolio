@@ -192,6 +192,10 @@ p.fake-60-px {
 }
 
 @media (max-width: 414px) {
+    .about-title {
+        margin-top: 84px;
+        margin-bottom: 80px;
+    }
     .icons-hamburger {
         position: absolute;
         right: 24px;
@@ -263,7 +267,7 @@ p.fake-60-px {
         color: #414A4E;
     }
     .profile-info {
-        margin-bottom: 24px;
+        margin-bottom: 54px;
     }
     .profile-info-about {
         visibility: hidden;
@@ -272,5 +276,94 @@ p.fake-60-px {
         width: 0;
         height: 0;
         content: ""
+    }
+    /* Side Bar */
+    .sidenav {
+        display: flex;
+        height: 100%;
+        width: 0;
+        /*原始寬度爲0*/
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #ffffff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    /*側欄標籤和關閉按鈕光標的效果*/
+    .sidenav a:hover,
+    .offcanvas a:focus {
+        color: #A1AAAE;
+    }
+    /*側欄和關閉按鈕的位置選擇器*/
+    .openbtn {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    .hamburger {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+    }
+    .hamburger-around {
+        display: block;
+        width: 21px;
+        height: 21px;
+    }
+    .hamburger .line {
+        height: 1px;
+        border: 1px solid #000000;
+        background-color: #000000;
+        border-radius: 6px;
+        display: block;
+        margin: 3px auto;
+    }
+    ._hamburger {
+        position: absolute;
+        display: flex;
+        width: 40px;
+        height: 40px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        top: 40px;
+        right: 40px;
+    }
+    ._hamburger-around {
+        display: block;
+        width: 21px;
+        height: 21px;
+    }
+    ._hamburger ._line {
+        height: 1px;
+        border: 1px solid #000000;
+        background-color: #000000;
+        border-radius: 6px;
+        display: block;
+        margin: 3px auto;
+    }
+    ._line_1 {
+        transform: translateX(2px) rotate(45deg) translateY(4px);
+    }
+    ._line_2 {
+        transform: translateX(2px) rotate(-45deg) translateY(-4px);
+    }
+    .menu__item {
+        margin-top: 50px;
+        list-style-type: none;
+        margin-bottom: 40px;
+    }
+    .menu__link {
+        color: #000000;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
     }
 }
