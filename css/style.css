@@ -10,6 +10,53 @@ h1 {
 
 p {
     color: #000000;
+    margin: 20px 0 20px;
+}
+
+p.fake-60-px {
+    height: 60px;
+    margin: 0;
+    content: ""
+}
+
+.job-desc {
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.job-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.about-title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.about-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+    margin: 0;
+}
+
+.about-content {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 @media (min-width: 992px) {
@@ -46,19 +93,34 @@ p {
         width: 70px;
         height: 20px;
         color: #49787E;
+        font-size: 14px;
+        line-height: 140%;
     }
     .ABOUT {
         width: 70px;
         height: 20px;
         color: #49787E;
+        font-size: 14px;
+        line-height: 140%;
     }
     .all-projects {
         grid-column: 2;
         margin-left: 371px;
     }
+    #section-about {
+        grid-column: 2;
+        margin-left: 371px;
+    }
     .img-fluid {
-        margin-bottom: 20px;
-        width: 100%;
+        width: 104.12%;
+    }
+    .cover-desc {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #414A4E;
     }
 }
 
@@ -96,19 +158,34 @@ p {
         width: 70px;
         height: 20px;
         color: #49787E;
+        font-size: 14px;
+        line-height: 140%;
     }
     .ABOUT {
         width: 70px;
         height: 20px;
         color: #49787E;
+        font-size: 14px;
+        line-height: 140%;
     }
     .all-projects {
         grid-column: 2;
         margin-left: 355px;
     }
+    #section-about {
+        grid-column: 2;
+        margin-left: 371px;
+    }
     .img-fluid {
-        margin-bottom: 20px;
-        width: 100%;
+        width: 104.12%;
+    }
+    .cover-desc {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #414A4E;
     }
 }
 
@@ -139,7 +216,7 @@ p {
         text-align: center;
         margin-top: 20px;
     }
-    #job-title {
+    .job-title {
         text-align: center;
     }
     .icons-medium {
@@ -157,7 +234,6 @@ p {
         margin-top: 20px;
     }
     .img-fluid {
-        margin-bottom: 20px;
         width: 100%;
     }
 }
