@@ -1,6 +1,6 @@
 body {
     font-size: 16px;
-    font-family: "Source Serif Pro", serif;
+    font-family: 'PingFang TC', 'Noto Sans TC', sans-serif;
     color: #353738;
 }
 
@@ -123,6 +123,14 @@ p.fake-60-px {
         font-size: 20px;
         color: #414A4E;
     }
+    .wrapper {
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+        width: 0;
+        height: 0;
+        content: ""
+    }
 }
 
 @media (min-width: 415px) and (max-width: 991px) {
@@ -188,6 +196,14 @@ p.fake-60-px {
         font-weight: 600;
         font-size: 20px;
         color: #414A4E;
+    }
+    .wrapper {
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+        width: 0;
+        height: 0;
+        content: ""
     }
 }
 
