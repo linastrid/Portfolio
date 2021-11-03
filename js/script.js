@@ -26,8 +26,10 @@ $(document).ready(function () {
 /*改變原始寬度（0）*/
 function openNav() {
     document.getElementById("mySidenav").style.width = "151px";
+    document.getElementById("fade").style.display = "block";
 }
 /*恢復原始寬度0*/
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("fade").style.display = "none";
 }

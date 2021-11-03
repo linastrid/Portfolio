@@ -14,6 +14,7 @@
 
 <body>
     <main>
+        <div id="fade" class="black_overlay"></div>
         <div class="wrapper">
             <aside id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
@@ -25,8 +26,8 @@
                     </div>
                 </a>
                 <ul class="menu">
-                    <li class="menu__item"><a class="menu__link" href="#HOME">HOME</a></li>
-                    <li class="menu__item"><a class="menu__link" href="#ABOUT">ABOUT</a></li>
+                    <li class="menu__item"><a onclick="closeNav()" class="menu__link" href="https://justin4053.github.io/js-resume/index-home.html">HOME</a></li>
+                    <li class="menu__item"><a onclick="closeNav()" class="menu__link" href="https://justin4053.github.io/js-resume/index-about.html">ABOUT</a></li>
                 </ul>
                 </a>
             </aside>
@@ -42,7 +43,7 @@
         </div>
         <div class="container">
             <div class="profile-info">
-                <p class="fake-60-px"></p>
+                <p class="fake-height" class="fake-60-px"></p>
                 <div class="avatar">
                     <img src="./images/common/avatar.png" alt="#" id='profile-info-avatar'>
                 </div>
