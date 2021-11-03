@@ -131,7 +131,7 @@ p.fake-60-px {
         height: 0;
         content: ""
     }
-    .fake-height {
+    p.fake-60-px {
         visibility: hidden;
         margin: 0;
         padding: 0;
@@ -214,6 +214,14 @@ p.fake-60-px {
         content: ""
     }
     .fake-height {
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+        width: 0;
+        height: 0;
+        content: ""
+    }
+    p.fake-60-px {
         visibility: hidden;
         margin: 0;
         padding: 0;
