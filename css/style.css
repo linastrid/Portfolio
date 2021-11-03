@@ -16,7 +16,7 @@ p {
 p.fake-60-px {
     height: 60px;
     margin: 0;
-    content: ""
+    content: "";
 }
 
 .job-desc {
