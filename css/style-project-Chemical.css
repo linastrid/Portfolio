@@ -76,7 +76,7 @@ nav {
     height: 34px;
 }
 
-.nav-name {
+.nav-name a {
     letter-spacing: 1px;
     margin-left: 20px;
     font-weight: 600px;
@@ -493,4 +493,8 @@ section {
     -ms-transform: translateX(10px) rotate(-45deg) translateY(-4px);
     -o-transform: translateX(10px) rotate(-45deg) translateY(-4px);
     transform: translateX(10px) rotate(-45deg) translateY(-4px);
+}
+
+#UJ {
+    display: none;
 }
