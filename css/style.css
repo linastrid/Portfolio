@@ -86,8 +86,8 @@ p.fake-60-px-content {
     }
     .profile-info {
         grid-column: 1;
-        width: 310px;
-        height: 728px;
+        max-width: 310px;
+        max-height: 728px;
         position: fixed;
     }
     #profile-info-avatar {
@@ -95,8 +95,6 @@ p.fake-60-px-content {
         height: 100%;
     }
     .description {
-        width: 310px;
-        height: 728px;
         margin-top: 20px;
     }
     .icons-medium {
