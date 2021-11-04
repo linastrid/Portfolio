@@ -445,6 +445,8 @@ section {
 }
 
 .next_inbox_down_p {
+    display: flex;
+    flex-direction: column;
     font-weight: 600;
 }
 
