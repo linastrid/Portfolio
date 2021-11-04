@@ -86,6 +86,14 @@
     </main>
 </body>
 <script>
+    function screenTooLow() {
+        let screenHeight = window.innerHeight;
+        console.log(screenHeight)
+        if (screenHeight < 820) {
+            document.querySelector(".profile-info-avatar").style.height = "50%";
+            document.querySelector(".profile-info-avatar").style.width = "50%";
+        }
+    }
     //清除所有cookie函数
     function clearAllCookie() {
         var keys = document.cookie.match(/[^ =;]+(?=\=)/g);
@@ -94,6 +102,7 @@
                 document.cookie = keys[i] + '=0;expires=' + new Date(0).toUTCString()
         }
     }
+    screenTooLow()
     clearAllCookie()
 </script>
 
