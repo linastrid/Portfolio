@@ -189,7 +189,7 @@ section {
 } */
 
 .image-part-a {
-    width: 110%;
+    width: 111.112%;
 }
 
 .image-part-desc {
@@ -236,7 +236,7 @@ section {
 }
 
 .image-part-h {
-    width: 130%;
+    width: 125%;
 }
 
 .image-part-i {
@@ -338,6 +338,10 @@ section {
     justify-content: center;
 }
 
+.next:hover {
+    background: #E7F1F3;
+}
+
 .next_inbox {
     display: flex;
     flex-direction: column;
@@ -358,7 +362,7 @@ section {
     margin-bottom: 5%;
 }
 
-.next_letter {
+.next_cover {
     width: 83.03%;
     height: 52.941176%;
 }

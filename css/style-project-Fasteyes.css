@@ -355,6 +355,10 @@ section {
     justify-content: center;
 }
 
+.next:hover {
+    background: #E7F1F3;
+}
+
 .next_inbox {
     display: flex;
     flex-direction: column;
