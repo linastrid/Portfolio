@@ -96,7 +96,7 @@ nav {
     height: 34px;
 }
 
-.nav-name {
+.nav-name a {
     letter-spacing: 1px;
     margin-left: 20px;
     font-weight: 600px;

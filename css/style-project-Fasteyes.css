@@ -11,6 +11,11 @@ p {
     margin: 20px 0 20px;
 }
 
+p.special-desc {
+    text-align: center;
+    color: #49787E;
+}
+
 li {
     text-align: justify;
 }
@@ -78,7 +83,7 @@ nav {
     height: 34px;
 }
 
-.nav-name {
+.nav-name a {
     letter-spacing: 1px;
     margin-left: 20px;
     font-weight: 600px;
@@ -183,15 +188,15 @@ section {
 
 .image-part-2a-1,
 .image-part-2a-2 {
-    width: 96.31%;
+    width: 96.345%;
 }
 
 .image-part-2b-1 {
-    width: 100%;
+    width: 96.345%;
 }
 
 .image-part-2b-2 {
-    width: 100%;
+    width: 96.345%;
 }
 
 .image-part-desc {
@@ -255,14 +260,16 @@ section {
     color: #7D8A80;
 }
 
+.img-container-left {}
 
-}
 .img-container-right {
     margin-left: 97px;
 }
+
 .sharing {
     margin-bottom: 20px;
 }
+
 .title {
     margin-top: 40px;
     display: flex;
@@ -275,6 +282,7 @@ section {
     font-size: 26px;
     color: #FFFFFF;
 }
+
 .Previous-Now-version {
     display: flex;
     background: #497A7E;
@@ -286,10 +294,12 @@ section {
     align-items: center;
     margin-top: 18px;
 }
+
 .original-version,
 .revised-version {
     display: flex;
 }
+
 .original-version-left {
     display: flex;
     flex-grow: 1;
@@ -302,6 +312,7 @@ section {
     align-items: center;
     color: #FFFFFF;
 }
+
 .revised-version-left {
     display: flex;
     flex-grow: 1;
@@ -314,10 +325,12 @@ section {
     align-items: center;
     color: #FFFFFF;
 }
+
 .original-version-right,
 .revised-version-right {
     flex-grow: 9.62;
 }
+
 .video-container {
     display: flex;
     justify-content: center;
@@ -326,11 +339,13 @@ section {
     padding-bottom: 56.25%;
     margin-bottom: 60px;
 }
+
 .video-container iframe {
     position: absolute;
     width: 111.11%;
     height: 111%;
 }
+
 .next {
     margin-top: 120px;
     display: flex;
@@ -339,16 +354,19 @@ section {
     height: 100%;
     justify-content: center;
 }
+
 .next_inbox {
     display: flex;
     flex-direction: column;
     width: 41.14202%;
     height: 74.901961%;
 }
+
 .next_inbox_top {
     font-size: 26px;
     color: #49787E;
 }
+
 .next_inbox_down {
     display: flex;
     font-size: 18px;
@@ -356,27 +374,35 @@ section {
     align-items: center;
     margin-bottom: 5%;
 }
+
 .next_letter {
     width: 83.03%;
     height: 52.941176%;
 }
+
 .next_inbox_down_p {
     font-weight: 600;
 }
 
+
 /* Slide Bar */
+
 .input-toggler {
     display: none;
 }
+
 :root {
     scroll-padding-top: 3.5rem;
 }
+
 .menu-title {
     text-align: center;
 }
+
 :root {
     --sidebar-width: 323px;
 }
+
 .sidebar {
     background: white;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -392,28 +418,34 @@ section {
     transition: transform .5s, background-position 1s .6s;
     z-index: 1;
 }
+
 .menu__item {
     list-style-type: none;
     margin-bottom: 20px;
 }
+
 .menu__link {
     color: #A1AAAE;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
 }
+
 .input-toggler:checked~.sidebar {
     transform: translateX(0);
 }
+
 .content div[id] {
     display: none;
 }
+
 .menu__link:hover,
 .menu__link:focus,
 .menu__link:active {
     color: #485D60;
     ;
 }
+
 .menu-toggler {
     display: flex;
     position: fixed;
@@ -423,7 +455,9 @@ section {
     z-index: 9999999;
 }
 
+
 /* hamburger */
+
 .hamburger {
     display: flex;
     width: 40px;
@@ -436,11 +470,13 @@ section {
     align-items: center;
     justify-content: center;
 }
+
 .hamburger-around {
     display: block;
     width: 21px;
     height: 21px;
 }
+
 .hamburger .line {
     height: 1px;
     border: 1px solid #7D8A80;
@@ -452,19 +488,23 @@ section {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+
 .hamburger:hover {
     cursor: pointer;
 }
+
 #hamburger-4.is-active .line:nth-child(1),
 #hamburger-4.is-active .line:nth-child(3) {
     width: 10px;
 }
+
 #hamburger-4.is-active .line:nth-child(1) {
     -webkit-transform: translateX(10px) rotate(45deg) translateY(4px);
     -ms-transform: translateX(10px) rotate(45deg) translateY(4px);
     -o-transform: translateX(10px) rotate(45deg) translateY(4px);
     transform: translateX(10px) rotate(45deg) translateY(4px);
 }
+
 #hamburger-4.is-active .line:nth-child(3) {
     -webkit-transform: translateX(10px) rotate(-45deg) translateY(-4px);
     -ms-transform: translateX(10px) rotate(-45deg) translateY(-4px);
