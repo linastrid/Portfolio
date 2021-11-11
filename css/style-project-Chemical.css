@@ -17,10 +17,15 @@ p.fake-20-px {
     content: ""
 }
 
+p.quote-p {
+    margin: 0 0 20px;
+}
+
 hr {
     border: 1px solid #D3D9DC;
 }
 
+.center-box,
 .img-container {
     display: flex;
     justify-content: center;
@@ -184,11 +189,6 @@ section {
     width: 124.75%;
 }
 
-
-/* .image-part:focus {
-    cursor: zoom-out;
-} */
-
 .image-part-a {
     width: 111.112%;
 }
@@ -264,6 +264,10 @@ section {
 .image-part-n,
 .image-part-o {
     width: 111.1111111%;
+}
+
+.image-part-p {
+    width: 100%;
 }
 
 .title {
@@ -498,8 +502,4 @@ section {
     -ms-transform: translateX(10px) rotate(-45deg) translateY(-4px);
     -o-transform: translateX(10px) rotate(-45deg) translateY(-4px);
     transform: translateX(10px) rotate(-45deg) translateY(-4px);
-}
-
-#UJ {
-    display: none;
 }
