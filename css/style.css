@@ -8,6 +8,10 @@ h1 {
     color: #485D60;
 }
 
+a {
+    text-decoration: none;
+}
+
 p {
     color: #000000;
     margin: 20px 0 20px;
@@ -70,6 +74,17 @@ p.fake-60-px-content {
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.icons-medium,
+.icons-resume {
+    width: 24px;
+    height: 24px;
+}
+
+.HOME:hover,
+.ABOUT:hover {
+    color: #485D60;
 }
 
 @media (min-width: 992px) {
