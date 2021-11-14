@@ -87,6 +87,27 @@ p.fake-60-px-content {
     color: #485D60;
 }
 
+.img_overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.img_overlay:after {
+    content: '';
+    position: absolute;
+    width: 104.12%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.25);
+    opacity: 0;
+}
+
+.img_overlay:hover:after {
+    opacity: 1;
+}
+
 @media (min-width: 992px) {
     .icons-hamburger {
         visibility: hidden;
