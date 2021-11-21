@@ -225,11 +225,10 @@ section {
     border: 1px solid #E0E0E0;
 }
 
-.image-part-2e-1 {
-    width: 100%;
-}
-
-.image-part-2e-2 {
+.image-part-2e-1,
+.image-part-2e-2,
+.image-part-2g-1,
+.image-part-2g-2 {
     width: 100%;
 }
 
